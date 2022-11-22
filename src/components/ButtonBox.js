@@ -1,7 +1,7 @@
 
-const ButtonBox = () => {
+const ButtonBox = ({ children }) => {
     return (
-        <div>Button Box</div>
+        <div className="buttonBox">{children}</div>
     )
 }
 
